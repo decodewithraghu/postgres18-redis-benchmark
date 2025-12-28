@@ -1,0 +1,28 @@
+{
+  "name": "postgres18-redis-benchmark",
+  "version": "1.0.0",
+  "description": "Benchmark comparing PostgreSQL 18 direct queries vs Redis-cached queries",
+  "main": "src/benchmark.js",
+  "scripts": {
+    "start": "node src/benchmark.js",
+    "setup": "node src/benchmark.js --setup-only",
+    "benchmark": "node src/benchmark.js --benchmark-only",
+    "clean": "node src/benchmark.js --clean",
+    "examples": "node src/examples.js",
+    "test": "echo \"Run: npm run examples\" && exit 0"
+  },
+  "keywords": [
+    "postgresql",
+    "postgres",
+    "redis",
+    "benchmark",
+    "performance"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "pg": "^8.11.3",
+    "ioredis": "^5.3.2",
+    "dotenv": "^16.3.1"
+  }
+}
