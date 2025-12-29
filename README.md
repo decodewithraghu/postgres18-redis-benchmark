@@ -89,8 +89,8 @@ Below is a complete benchmark result from a production test machine:
 ![Benchmark Output](output.png)
 
 **Test Environment:**
-- **CPU**: Intel Core i7 / AMD Ryzen (Multi-core)
-- **RAM**: 16GB+
+- **CPU**: Intel Core ULTRA i9 
+- **RAM**: 32GB+
 - **PostgreSQL**: 18.x running on localhost
 - **Redis**: 7.x running on localhost
 - **Node.js**: 24.x
