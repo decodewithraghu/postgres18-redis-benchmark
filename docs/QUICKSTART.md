@@ -283,10 +283,8 @@ ls patterns/
 ```bash
 ls
 # examples.js           - 9 working examples
-# benchmark.improved.js - Enhanced benchmark
 # DESIGN_PATTERNS.md    - Pattern documentation
 # ARCHITECTURE.md       - Visual diagrams
-# IMPROVEMENTS.md       - Complete improvement summary
 ```
 
 ---
@@ -390,7 +388,7 @@ CREATE DATABASE benchmark_db;
 ## 📚 Next Steps
 
 1. ✅ Run `npm start` - See original benchmark
-2. ✅ Run `node benchmark.improved.js` - See improvements
+2. ✅ Run `node benchmark.js` - See improvements
 3. ✅ Run `node examples.js` - Learn patterns
 4. ✅ Read `DESIGN_PATTERNS.md` - Understand patterns
 5. ✅ Read `ARCHITECTURE.md` - See diagrams
